@@ -40,47 +40,35 @@ Search Engine Optimization and Arduino Programming Workshops
 Amal Fellowship Program by Harvard University
 
 
+Course Outline 
 
-Python Course Outline:
+1: Introduction to Python  -
+ Overview of Python 
+- Setting up the Environment  
+- Basic Syntax  
+- Variables and Data Types 
+- Operators Lesson 
 
-Getting Started
+2: Control Flow Statements  
+- Conditions and Boolean Expressions 
+- Loops  
+- Exception Handling Lesson 
 
-Keywords and Identifiers
+3: Functions  
+- Arguments and Parameters  
+- Scope of Variables  
+- Recursive Functions Lesson 
 
-Variables
+4: Objects and Classes  
+- Definition of a Class  
+- Creating Objects 
+ - Inheritance 
+- Class Methods Lesson 
 
-Datatypes
-
-Type Conversion
-
-if...else
-
-Loops
-
-Functions
-
-Global, Local and Nonlocal
-
-Numbers
-
-List
-
-Tuple
-
-String
-
-Set
-
-Dictionary
-
-File Operation
-
-OOP
-
-Python datetime Module
-
-Pandas
-
-Numpy
-
-
+5: Working with Files  
+- Opening and Reading Files  
+- Writing and Appending Files  
+- File Paths Setting 
+- Installing Modules 
+ - Importing Modules  
+- Using Modules Lesson 
