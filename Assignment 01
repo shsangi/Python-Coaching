@@ -1,0 +1,21 @@
+This Python assignment is designed to help practice working with variables, strings, and if-else conditions.
+
+1.Write a program to store a string and an integer in two separate variables, then combine them and print the result.
+
+2.Create a program that accepts two strings and outputs the concatenation of the two strings in uppercase.
+
+3.Write a program that accepts a string and converts it to an integer, then adds 10 to the result and outputs the final result.
+
+4.Create a program that accepts a string and checks if the length of the string is greater than 10. If it is, the program should output “String is too long.”, otherwise, it should output “String is just right.”
+
+5.Write a program that accepts an integer and checks if it is even or odd. If it is even, the program should output “Even”, otherwise, it should output “Odd”.
+
+6.Create a program that accepts two integers and outputs the larger of the two.
+
+7.Write a program that accepts a string and checks if it contains the word “python”. If it does, the program should output “Yes”, otherwise, it should output “No”.
+
+8.Create a program that accepts an integer and checks if it is positive or negative. If it is positive, the program should output “Positive”, otherwise, it should output “Negative”.
+
+9.Write a program that accepts an integer and checks if it is within the range of 1 to 100. If it is, the program should output “In range”, otherwise, it should output “Out of range”.
+
+10.Create a program that accepts a string and outputs the first three characters of the string. If the string is less than three characters long, the program should output “String too short”.
