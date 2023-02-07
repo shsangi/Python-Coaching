@@ -1,8 +1,8 @@
 Write the answers of following questions.
 1. What is the difference between a list and a dictionary in Python? 
 2. How do you add items to a list in Python?
-3. How do you access elements in a list in Python? 
-4. What are sets in Python and how do they differ from lists? 
+3. What is a list in Python? 
+4. What are sets in Python?
 5. How do you loop through a list in Python? 
 6. What is the syntax for creating a dictionary in Python? 
 7. How do you remove an element from a list in Python? 
@@ -24,4 +24,4 @@ Write the answers of following questions.
 23. Write a program that takes a list of numbers and creates a dictionary where the key is the number and the value is its square.
 24.Write a program that takes a list of names and a dictionary of corresponding ages and prints the names and ages of all individuals who are over 30.
 25. Write a program that takes two sets of numbers and returns the union of the sets.
-@End of assignment questions
+End of assignment questions
