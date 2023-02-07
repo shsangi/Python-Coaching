@@ -1,0 +1,179 @@
+Write the answers of following questions.
+
+1. What is the difference between a list and a dictionary in Python?
+A list is an ordered collection of items, while a dictionary is an unordered collection of items. Lists are accessed by index number, while dictionaries are accessed by a key. A list stores items in the order they are added, while a dictionary does not. A list can contain any type of item, while a dictionary contains key-value pairs. 
+2. How do you add items to a list in Python?
+You can add items to a list in Python by using the append() method. For example:
+my_list = [1,2,3]
+my_list.append(4)  # [1,2,3,4]
+3. What is a list in Python?
+A list is an ordered collection of elements, which can be of different data types, such as strings, integers, floats, and so on. It is one of the most commonly used data structures in Python. 
+4. What are sets in Python?
+Sets in Python are an unordered collection of unique elements. They are enclosed in curly brackets and items are separated by commas. Sets are mainly used to remove duplicate elements from a sequence and to perform common mathematical operations like union, intersection, difference, and symmetric difference.
+5. How do you loop through a list in Python?
+There are several ways to loop through a list in Python.
+The most common and simplest way is to use a for loop:
+
+my_list = [1, 2, 3, 4, 5]
+
+for item in my_list:
+    print(item)
+
+This will loop through each item in the list and print it out.
+
+Another way is to use the built-in enumerate function, which allows you to keep track of the index of each item as you loop through the list:
+
+for index, item in enumerate(my_list):
+    print(index, item)
+
+This will loop through each item in the list, and print out its index and value.
+6. What is the syntax for creating a dictionary in Python?
+The syntax for creating a dictionary in Python is:
+
+my_dict = {
+  key1: value1,
+  key2: value2,
+  ...
+}
+7. How do you remove an element from a list in Python? 
+To remove an element from a list in Python, you can use the remove() method. For example:
+
+myList = [1, 2, 3, 4]
+
+myList.remove(2)
+
+print(myList)
+
+The output would be: [1, 3, 4]
+8. How do you access the values of a dictionary in Python?
+You can access the values of a dictionary in Python by using the keys associated with the values. For example, if you have a dictionary "my_dict" with keys "key1" and "key2" and values "value1" and "value2", you can access the values by using the syntax my_dict["key1"] and my_dict["key2"], which would return "value1" and "value2" respectively.
+9. What is the difference between list and set in Python?
+The main difference between a list and a set in Python is that a list is an ordered collection, while a set is an unordered collection. A set does not allow duplicate values, whereas a list does. Additionally, sets are much faster for membership tests than lists. 
+10. How do you add elements to a set in Python? 
+You can add elements to a set in Python by using the add() method. For example:
+
+my_set = set() 
+my_set.add(1) 
+my_set.add(2) 
+my_set.add(3) 
+print(my_set) 
+
+#Output: {1, 2, 3}
+11. How do you loop through a dictionary in Python?
+You can loop through a dictionary in Python by using a for loop. The syntax for this would be:
+
+for key, value in dict.items():
+    # Do something with key and value
+12. What is the syntax for creating a set in Python? 
+1. Using curly braces:
+my_set = {1, 2, 3, 4}
+
+2. Using the set() function:
+my_set = set([1, 2, 3, 4])
+13. How do you delete elements from a set in Python? 
+You can delete elements from a set in Python using the remove() or discard() methods. The remove() method will raise an error if the element does not exist in the set, while the discard() method will not.
+
+Example:
+
+# Create a set
+my_set = {1, 2, 3, 4, 5}
+
+# Remove element from the set
+my_set.remove(3)
+
+# Print the set
+print(my_set)
+
+# Output: {1, 2, 4, 5}
+14. How do you check if an element is present in a list in Python? 
+You can use the "in" operator to check if an element is present in a list. For example, if you have a list called "my_list", and you want to check if the element "x" is present, you can use the following code:
+
+if "x" in my_list:
+    print("Element is present!")
+else:
+    print("Element is not present!")
+15. How do you find the length of a list in Python? 
+You can find the length of a list in Python by using the built-in len() function. For example, to find the length of the list "myList":
+
+myList = [1, 2, 3, 4, 5]
+listLength = len(myList)
+print(listLength)
+
+# Output: 5
+16. How do you clear a dictionary in Python? 
+To clear a dictionary in Python, you can use the clear() method:
+
+my_dict = {"a": 1, "b": 2}
+my_dict.clear()
+print(my_dict)
+# Output: {}
+17. How do you sort a list in Python? 
+You can use the built-in sorted() function to sort a list in Python. For example:
+
+unsorted_list = [3, 5, 2, 1, 4] 
+sorted_list = sorted(unsorted_list) 
+print(sorted_list) 
+
+# Output: [1, 2, 3, 4, 5]
+18. How do you iterate through a set in Python?
+You can iterate through a set in Python using a for loop. For example:
+
+my_set = {1,2,3,4,5}
+
+for value in my_set:
+  print(value)
+
+This will print out each value in the set, one at a time.
+19. How do you add an element to a Python dictionary? 
+You can add an element to a Python dictionary using the following syntax:
+
+dictionary_name[key] = value
+
+For example, if you have a dictionary called my_dict and you want to add the element "apple" with a value of "red", you would use the following code:
+
+my_dict["apple"] = "red"
+20. How do you remove an element from a Python dictionary? 
+You can remove an element from a Python dictionary using either the pop() or the del keyword. The pop() method takes the key of the element you want to remove as an argument and returns the value of the removed element. The del keyword takes the key of the element you want to remove and deletes it from the dictionary. 
+
+Example: 
+
+my_dict = {'name': 'John', 'age': 30, 'gender': 'male'} 
+
+# remove the 'name' element using pop() 
+name = my_dict.pop('name') 
+print(name) # John 
+print(my_dict) # {'age': 30, 'gender': 'male'} 
+
+# remove the 'age' element using del 
+del my_dict['age'] 
+print(my_dict) # {'gender': 'male'}
+21. Write a program that creates a list of numbers from 0 to 10 and prints the list.
+#Create a list from 0 to 10
+nums = list(range(11))
+
+#Print the list
+print(nums)
+22. Write a program that creates a list of odd numbers from 0 to 20 and prints the list.
+odd_numbers = []
+
+for num in range(0, 21):
+    if num % 2 == 1:
+        odd_numbers.append(num)
+
+print(odd_numbers)
+23. Write a program that takes a list of numbers and creates a dictionary where the key is the number and the value is its square.
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = {num: num**2 for num in numbers}
+print(squared_numbers)
+24.Write a program that takes a list of names and a dictionary of corresponding ages and prints the names and ages of all individuals who are over 30.
+names = ['John', 'Jane', 'Jim', 'Joan']
+ages = {'John': 30, 'Jane': 28, 'Jim': 35, 'Joan': 32}
+for name, age in ages.items():
+    if age > 30:
+        print(f'{name} is {age} years old.')
+25. Write a program that takes two sets of numbers and returns the union of the sets.
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+union_of_sets = set1.union(set2)
+print(union_of_sets)
+End of assignment questions
